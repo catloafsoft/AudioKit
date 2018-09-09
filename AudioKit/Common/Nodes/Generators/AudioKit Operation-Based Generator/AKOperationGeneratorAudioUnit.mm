@@ -8,11 +8,11 @@
 
 #import "AKOperationGeneratorAudioUnit.h"
 #import "AKOperationGeneratorDSPKernel.hpp"
-#import "AKCustomUgenFunction.h"
 
 #import "BufferedAudioBus.hpp"
 
 #import <AudioKit/AudioKit-Swift.h>
+#import "AKCustomUgenFunction.h"
 
 @implementation AKOperationGeneratorAudioUnit {
     // C++ members need to be ivars; they would be copied on access if they were properties.

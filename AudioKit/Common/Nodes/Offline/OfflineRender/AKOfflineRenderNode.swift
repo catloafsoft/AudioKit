@@ -5,6 +5,7 @@
 //  Created by David O'Neill, revision history on GitHub.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// Node to render audio quickly into a buffer of memory or into a file
 @available(iOS, obsoleted: 11)

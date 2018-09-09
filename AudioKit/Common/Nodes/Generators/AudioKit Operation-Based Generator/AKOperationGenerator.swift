@@ -5,6 +5,8 @@
 //  Created by Aurelius Prochazka, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AVFoundation
+import AudioKitInternal
 
 /// Operation-based generator
 open class AKOperationGenerator: AKNode, AKToggleable, AKComponent {

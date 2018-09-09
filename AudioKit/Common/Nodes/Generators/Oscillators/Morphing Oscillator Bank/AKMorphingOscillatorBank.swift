@@ -5,6 +5,7 @@
 //  Created by Aurelius Prochazka, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// This is an oscillator with linear interpolation that is capable of morphing
 /// between an arbitrary number of wavetables.

@@ -5,6 +5,7 @@
 //  Created by Mike Gazzaruso, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// DynaRage Tube Compressor | Based on DynaRage Tube Compressor RE for Reason
 /// by Devoloop Srls

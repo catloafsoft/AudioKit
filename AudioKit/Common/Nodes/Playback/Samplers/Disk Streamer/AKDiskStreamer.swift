@@ -9,7 +9,7 @@
 /// An alternative to AKSampler or AKAudioPlayer, AKDiskStreamer is a player that 
 /// will playback samples from disk, without incurring lots of memory usage
 
-import Foundation
+import AudioKitInternal
 
 /// Audio player that loads a sample into memory
 open class AKDiskStreamer: AKNode, AKComponent {

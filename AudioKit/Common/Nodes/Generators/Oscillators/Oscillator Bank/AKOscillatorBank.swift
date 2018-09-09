@@ -5,6 +5,7 @@
 //  Created by Aurelius Prochazka, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// Reads from the table sequentially and repeatedly at given frequency. Linear
 /// interpolation is applied for table look up from internal phase values.

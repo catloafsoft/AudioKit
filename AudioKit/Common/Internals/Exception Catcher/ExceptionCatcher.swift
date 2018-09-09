@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import AudioKitInternal
 
 public func AKTry(_ operation: @escaping (() throws -> Void)) throws {
     var error: Error?

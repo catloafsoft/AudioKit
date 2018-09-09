@@ -1,0 +1,5 @@
+explicit module AudioKit.Private {
+  header "Common/Internals/AudioKit-Internal.h"
+
+  export *
+}

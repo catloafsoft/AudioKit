@@ -1,0 +1,4 @@
+module AudioKitInternal {
+  header "../Common/Internals/AudioKit-Internal.h"
+  export *
+}

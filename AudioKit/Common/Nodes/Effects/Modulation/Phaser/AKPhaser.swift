@@ -5,6 +5,7 @@
 //  Created by Aurelius Prochazka, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// A stereo phaser This is a stereo phaser, generated from Faust code taken
 /// from the Guitarix project.

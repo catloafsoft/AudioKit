@@ -5,6 +5,7 @@
 //  Created by Aurelius Prochazka, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// A 2nd order tunable equalization filter that provides a peak/notch filter
 /// for building parametric/graphic equalizers. With gain above 1, there will be

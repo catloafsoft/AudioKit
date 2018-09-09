@@ -5,6 +5,7 @@
 //  Created by Shane Dunne, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// Stereo Chorus
 ///

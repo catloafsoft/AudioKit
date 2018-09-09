@@ -5,6 +5,7 @@
 //  Created by Shane Dunne
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// Stereo Chorus
 ///

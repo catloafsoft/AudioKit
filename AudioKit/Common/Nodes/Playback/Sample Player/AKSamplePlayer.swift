@@ -12,7 +12,7 @@
 /// with specified volume. Changing the rate plays it faster and therefore sounds 
 /// higher or lower. Set rate to 2.0 to double playback speed and create an octave.  
 /// Give it a blast on `Sample Player.xcplaygroundpage`
-import Foundation
+import AudioKitInternal
 
 /// Audio player that loads a sample into memory
 @available(*, deprecated, message: "AKSamplePlayer is now AKWaveTable")

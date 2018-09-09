@@ -5,6 +5,7 @@
 //  Created by Aurelius Prochazka, revision history on GitHub.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// An easy to use class to do usual microphone tracking
 public class AKMicrophoneTracker {

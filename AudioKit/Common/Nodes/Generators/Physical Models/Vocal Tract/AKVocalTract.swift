@@ -5,6 +5,7 @@
 //  Created by Aurelius Prochazka, revision history on Github.
 //  Copyright © 2018 AudioKit. All rights reserved.
 //
+import AudioKitInternal
 
 /// Based on the Pink Trombone algorithm by Neil Thapen, this implements a
 /// physical model of the vocal tract glottal pulse wave. The tract model is
