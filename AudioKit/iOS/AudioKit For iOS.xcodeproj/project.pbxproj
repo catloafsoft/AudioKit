@@ -1096,6 +1096,8 @@
 		EA7D07271F4E655600707706 /* EZAudioDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = C40C41321C40E3A5009D870B /* EZAudioDisplayLink.h */; };
 		EAB4E04F20269F1E00171A16 /* AKCostelloReverbDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E04E20269F1E00171A16 /* AKCostelloReverbDSP.mm */; };
 		EAD0DEE621426B3000DCE36F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8F6ED32014B17000B68497 /* libstdc++.tbd */; };
+		EAD3A91821452CF50037B090 /* AudioKit-Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD0DEEC21428CF900DCE36F /* AudioKit-Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EAD3A91921452CFF0037B090 /* AudioKitUI-Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD0DEEB21428CA400DCE36F /* AudioKitUI-Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EAF71D7C202489E80018946B /* AKDSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAF71D7B202489E80018946B /* AKDSPKernel.mm */; };
 		EAF71D8D20249A880018946B /* AKAudioEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF71D8B20249A880018946B /* AKAudioEffect.h */; };
 		EAF71D8E20249A880018946B /* AKAudioEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAF71D8C20249A880018946B /* AKAudioEffect.mm */; };
@@ -5297,6 +5299,7 @@
 				C4BEAA121DEC3A9800186C50 /* AKAudioUnit.h in Headers */,
 				C49B152D204A06B8009C7C8E /* Noise.h in Headers */,
 				C49B138D204A06B7009C7C8E /* md5.h in Headers */,
+				EAD3A91821452CF50037B090 /* AudioKit-Internal.h in Headers */,
 				C49B154A204A06B8009C7C8E /* Drummer.h in Headers */,
 				FE2C8B4B20DADB3800009BAC /* dr_wav.h in Headers */,
 				C42F35041C057E03000E937C /* AudioKit.h in Headers */,
@@ -5549,6 +5552,7 @@
 				EA7D07241F4E641A00707706 /* EZAudioPlotGL.h in Headers */,
 				EAFECEC51F4EBD3900A2B046 /* AudioKitUI.h in Headers */,
 				EA7D07221F4E641A00707706 /* EZAudioPlot.h in Headers */,
+				EAD3A91921452CFF0037B090 /* AudioKitUI-Internal.h in Headers */,
 				EA7D07201F4E640D00707706 /* EZPlot.h in Headers */,
 				EA7D07271F4E655600707706 /* EZAudioDisplayLink.h in Headers */,
 			);
@@ -6641,7 +6645,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.audiokit.AudioKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INCLUDE_PATHS = ../AudioKitInternal;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 			};
@@ -6674,7 +6678,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.audiokit.AudioKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INCLUDE_PATHS = ../AudioKitInternal;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 			};
@@ -6702,7 +6706,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_PRIVATE_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/../AudioKitUI.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = io.audiokit.AudioKitUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -6736,7 +6740,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_PRIVATE_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/../AudioKitUI.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = io.audiokit.AudioKitUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

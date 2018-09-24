@@ -7,6 +7,7 @@
 //
 
 import AVFoundation
+import AudioKitInternal
 
 public class AKPWMOscillatorAudioUnit: AKGeneratorAudioUnitBase {
 
