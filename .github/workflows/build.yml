@@ -160,9 +160,7 @@ jobs:
         ./build_packages.sh
 
     - name: Upload files to release draft
-      uses: marvinpinto/action-automatic-releases@latest
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        prerelease: false
-        draft: true
-        files: Frameworks/packages/*
+      uses: fnkr/github-action-ghr@v1
+      env:
+        GHR_PATH: Frameworks/packages/
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
